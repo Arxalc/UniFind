@@ -1,5 +1,5 @@
 <?php
-  include_once('../ubr/db.php');
+  include_once('../db.php');
 
   $query = $conn->prepare("SELECT * FROM unisex");
   $query->execute();
